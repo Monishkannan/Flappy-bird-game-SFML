@@ -1,0 +1,5 @@
+﻿  sfmltest.cpp
+C:\Users\war3achine\source\repos\sfmltest\sfmltest\sfmltest.cpp(5,2): error C2562: 'add': 'void' function returning a value
+      C:\Users\war3achine\source\repos\sfmltest\sfmltest\sfmltest.cpp(3,6):
+      see declaration of 'add'
+  
