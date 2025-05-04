@@ -26,11 +26,25 @@ private:
 	void handle_events(const sf::Event&);
 	inline void draw_objects();
 	inline void update_objects_positions();
-	inline void detect_loss();
+	inline bool detect_loss();
 
 
 };
 
 
 inline	bool Game::detect_loss()
+{
 
+}
+
+inline void Game::update_objects_positions()
+{
+
+
+}
+
+
+inline void Game::draw_objects()
+{
+
+}
