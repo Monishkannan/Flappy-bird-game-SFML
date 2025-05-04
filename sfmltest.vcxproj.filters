@@ -21,10 +21,36 @@
     <ClCompile Include="Game.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Bird.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Bird.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="D:\qt resource files\6-12FlappyBirdQt\images\bird_blue_down.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="D:\qt resource files\6-12FlappyBirdQt\images\bird_blue_middle.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="D:\qt resource files\6-12FlappyBirdQt\images\game_over_red.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="D:\qt resource files\6-12FlappyBirdQt\images\pillar.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="D:\qt resource files\6-12FlappyBirdQt\images\sky.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="D:\qt resource files\6-12FlappyBirdQt\images\bird_blue_up.png">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>

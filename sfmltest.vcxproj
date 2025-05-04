@@ -135,11 +135,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Bird.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Bird.h" />
     <ClInclude Include="Game.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="D:\qt resource files\6-12FlappyBirdQt\images\bird_blue_down.png" />
+    <Image Include="D:\qt resource files\6-12FlappyBirdQt\images\bird_blue_middle.png" />
+    <Image Include="D:\qt resource files\6-12FlappyBirdQt\images\bird_blue_up.png" />
+    <Image Include="D:\qt resource files\6-12FlappyBirdQt\images\game_over_red.png" />
+    <Image Include="D:\qt resource files\6-12FlappyBirdQt\images\pillar.png" />
+    <Image Include="D:\qt resource files\6-12FlappyBirdQt\images\sky.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

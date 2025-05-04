@@ -1,4 +1,13 @@
-﻿  main.cpp
+﻿  Bird.cpp
+C:\Users\war3achine\source\SFML-3.0.0\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
+  (compiling source file 'Bird.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\stdexcept(100,19):
+      see declaration of 'std::runtime_error'
+      C:\Users\war3achine\source\SFML-3.0.0\include\SFML\System\Exception.hpp(41,23):
+      see declaration of 'sf::Exception'
+  
+C:\Users\war3achine\source\repos\sfmltest\sfmltest\Bird.cpp(17,29): warning C4305: 'initializing': truncation from 'double' to 'float'
+  main.cpp
 C:\Users\war3achine\source\SFML-3.0.0\include\SFML\System\Exception.hpp(41,47): warning C4275: non dll-interface class 'std::runtime_error' used as base for dll-interface class 'sf::Exception'
   (compiling source file 'main.cpp')
       C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\include\stdexcept(100,19):
@@ -6,8 +15,8 @@ C:\Users\war3achine\source\SFML-3.0.0\include\SFML\System\Exception.hpp(41,47): 
       C:\Users\war3achine\source\SFML-3.0.0\include\SFML\System\Exception.hpp(41,23):
       see declaration of 'sf::Exception'
   
-C:\Users\war3achine\source\repos\sfmltest\sfmltest\main.cpp(5,2): error C2065: 'Game': undeclared identifier
-C:\Users\war3achine\source\repos\sfmltest\sfmltest\main.cpp(5,8): error C2275: 'game': expected an expression instead of a type
-C:\Users\war3achine\source\repos\sfmltest\sfmltest\main.cpp(5,19): error C2061: syntax error: identifier 'Game'
-C:\Users\war3achine\source\repos\sfmltest\sfmltest\main.cpp(8,2): error C2541: 'delete': cannot delete objects that are not pointers
-C:\Users\war3achine\source\repos\sfmltest\sfmltest\main.cpp(9,7): error C2513: 'game': no variable declared before '='
+  Generating Code...
+main.obj : error LNK2019: unresolved external symbol "public: __cdecl Game::Game(char const *)" (??0Game@@QEAA@PEBD@Z) referenced in function main
+main.obj : error LNK2019: unresolved external symbol "public: __cdecl Game::~Game(void)" (??1Game@@QEAA@XZ) referenced in function "public: void * __cdecl Game::`scalar deleting destructor'(unsigned int)" (??_GGame@@QEAAPEAXI@Z)
+main.obj : error LNK2019: unresolved external symbol "public: void __cdecl Game::mainloop(void)" (?mainloop@Game@@QEAAXXZ) referenced in function main
+C:\Users\war3achine\source\repos\sfmltest\x64\Debug\sfmltest.exe : fatal error LNK1120: 3 unresolved externals
