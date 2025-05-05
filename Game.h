@@ -35,6 +35,12 @@ private:
 inline	bool Game::detect_loss()
 {
 
+
+}
+
+inline void Game::draw_objects()
+{
+
 }
 
 inline void Game::update_objects_positions()
@@ -44,7 +50,3 @@ inline void Game::update_objects_positions()
 }
 
 
-inline void Game::draw_objects()
-{
-
-}

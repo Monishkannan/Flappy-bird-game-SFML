@@ -2,11 +2,10 @@
 
 int main()
 {
-	Game* game = new Game("Flappy bird");
-	game->mainloop();
+	Game game("Flappy Bird");
+	game.mainloop();
 
-	delete game;
-	game = nullptr;
+
 
 	return 0;
 
